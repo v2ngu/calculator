@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding:0;
+    border:0;
+}
+
+.background{
+    display:flex;
+    width:30vh;
+    height:30vh;
+    background-color: gray;
+}
