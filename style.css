@@ -10,3 +10,15 @@
     height:30vh;
     background-color: gray;
 }
+
+.numButton{
+    font-size:10vh;
+}
+
+.operator{
+    font-size:4vh;
+}
+
+#solve{
+    font-size:10vh;
+}
