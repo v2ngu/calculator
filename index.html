@@ -1,5 +1,6 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,37 @@
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id = "background">
-        <div class = "display">Display: </div>
-        <button class = "numButton" value = "9">9</button>
-        <button class = "numButton" value = "8">8</button>
-        <button class = "numButton" value = "7">7</button>
-        <button class = "numButton" value = "6">6</button>
-        <button class = "numButton" value = "5">5</button>
-        <button class = "numButton" value = "4">4</button>
-        <button class = "numButton" value = "3">3</button>
-        <button class = "numButton" value = "2">2</button>
-        <button class = "numButton" value = "1">1</button>
-        <button class = "numButton" value = "0">0</button>
-        <button class = "operator" value = "+" >+</button>
-        <button class = "operator" value = "-">-</button>
-        <button class = "operator" value = "/">/</button>
-        <button class = "operator" value = "*">*</button>  
-        <button>Clear</button>
-        <button>.</button>
-        <button id = "solve">=</button>
+    <div id="center">
+        <div id="calculator-background">
+            <div class="display" id="display">0</div>
+            <button class="numButton" style="background-color: rgb(39, 225, 39);">A/C</button>
+            <button class="numButton" style="background-color: rgb(221, 127, 39);">+/-</button>
+            <button class="numButton" value="%" style="background-color: rgb(221, 127, 39);">%</button>
+            <button class="operator" value="/"> /</button>
+
+            <button class="numButton" value="7">7</button>
+            <button class="numButton" value="8">8</button>
+            <button class="numButton" value="9">9</button>
+            <button class="operator" value="*">*</button>
+
+            <button class="numButton" value="4">4</button>
+            <button class="numButton" value="5">5</button>
+            <button class="numButton" value="6">6</button>
+            <button class="operator" value="-">-</button>
+
+            <button class="numButton" value="1">1</button>
+            <button class="numButton" value="2">2</button>
+            <button class="numButton" value="3">3</button>
+            <button class="operator" value="+">+</button>
+
+            <button class="numButton" id="zero" value="0">0</button>
+            <button class="numButton">.</button>
+            <button id="solve">=</button>
+        </div>
     </div>
-    <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
